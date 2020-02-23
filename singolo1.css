@@ -87,3 +87,54 @@ body {
 .phone_section > div{
     float: left;
 }
+.tool_icon{
+    display:flex ;
+}
+.part2 h2{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 68px;
+}
+.services_main_desc{
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+    margin-left: 40px;
+    padding-top: 2px;
+    letter-spacing: -0.1px;
+    word-spacing: 1.8px;
+    margin-bottom: 45px;
+}
+.service_title{
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.service_text{
+    width: 219px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+.tool_icon{
+    margin-left: 40px;
+    margin-bottom: 16px;
+}
+.service_desc{
+    width: 240px;
+    padding-left: 18px;
+}
