@@ -1,0 +1,142 @@
+html {
+    font-size: 10px;   
+}
+body {
+    margin: 0;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.6rem;
+}
+.wrapper{
+    width: 1020px;
+}
+section{
+    padding-top: 62px;
+}
+.portfolio{
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+    padding-top: 44px;
+}
+.portfolio_name{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.portfolio_discription{
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+.button{
+    font-size: 12px;
+    line-height: 17px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    border-radius: 5px;
+    border: 1px solid #666d89;    
+    cursor: pointer;
+    background-color: transparent;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 3px;
+}
+.button_activ{
+    color: #c5c5c5;
+    border: 1px solid #c5c5c5;
+}
+.pictures{
+    padding: 5px;
+ 
+    
+}
+.portfolio_discription{
+    margin: 0;
+}
+.portfolio_buttons{
+    margin: 12px 0 12px 0;
+}
+.portfolio_pictures{
+    list-style: none;
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: flex;
+  
+}
+section{
+  padding-left: 40px;
+   
+   
+}
+.about-us{
+    background-color: #f2f2f2;
+    border-bottom: 6px solid #ffffff;
+}
+ul .people_image{
+    list-style: none;
+}
+.tittle{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    padding-bottom: 2px;
+    padding-top: 4px;
+    padding-left: 2px;
+}
+.about-us_discription{
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+.about-us_people-list{
+    display: flex;
+    padding-left: 0px;
+    padding-top: 27px;
+    
+}
+.about-us_tittle{
+    padding-bottom: 2px;
+}
+.people-name{
+    font-size: 18px;
+    line-height: 44px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+.people-discription{
+    font-size: 12px;
+    line-height: 21px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+.people_image{
+    width: 300px;
+    height: 300px;
+    padding-right: 20px;
+}
+/* .layout-4-column{
+    display: inline-block; */
+}
+.links{
+
+    /* width: 32px;
+    height: 32px;
+    border-radius: 16px;
+    border: 1px solid #666d89;  */
+}
