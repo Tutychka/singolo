@@ -9,13 +9,12 @@ body {
 .wrapper{
     width: 1020px;
 }
-section{
-    padding-top: 62px;
-}
 .portfolio{
     background-color: #2d303a;
     border-bottom: 6px solid #323746;
     padding-top: 44px;
+    padding-left: 40px;
+    height: 820px;
 }
 .portfolio_name{
     font-size: 30px;
@@ -27,11 +26,12 @@ section{
 }
 .portfolio_discription{
     font-size: 18px;
-    line-height: 30px;
+    line-height: 32px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 300;
     text-align: left;
+    margin: 0;
 }
 .button{
     font-size: 12px;
@@ -45,42 +45,40 @@ section{
     cursor: pointer;
     background-color: transparent;
     padding-left: 7px;
-    padding-right: 7px;
-    margin-right: 3px;
+    padding-right: 6px;
+    margin-right: 5px;
+    word-spacing: -1px;
 }
-.button_activ{
+.button_active{
     color: #c5c5c5;
     border: 1px solid #c5c5c5;
 }
 .pictures{
-    padding: 5px;
- 
-    
-}
-.portfolio_discription{
-    margin: 0;
+    padding-right: 20px;
+    padding-bottom: 16px;
 }
 .portfolio_buttons{
     margin: 12px 0 12px 0;
+    padding-left: 1px;
 }
 .portfolio_pictures{
     list-style: none;
     overflow: hidden;
     flex-wrap: wrap;
     display: flex;
-  
+    padding-left: 0px;
+    padding-top: 3px;
 }
-section{
-  padding-left: 40px;
-   
-   
-}
-.about-us{
+.About-us{
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
+    padding-left: 39px;
+    padding-top: 39px;
 }
-ul .people_image{
+.people_image{
     list-style: none;
+    width: 300px;
+    padding-right: 20px;
 }
 .tittle{
     font-size: 30px;
@@ -92,6 +90,7 @@ ul .people_image{
     padding-top: 4px;
     padding-left: 2px;
 }
+
 .about-us_discription{
     font-size: 18px;
     line-height: 30px;
@@ -99,11 +98,13 @@ ul .people_image{
     font-family: "Lato";
     font-weight: 300;
     text-align: left;
+    margin: 0;
+    word-spacing: 1.5px;
 }
 .about-us_people-list{
     display: flex;
-    padding-left: 0px;
-    padding-top: 27px;
+    padding-left: 1px;
+    padding-top: 29px;
     
 }
 .about-us_tittle{
@@ -116,27 +117,25 @@ ul .people_image{
     font-family: "Lato";
     font-weight: 900;
     text-align: left;
+    margin: 0;
 }
 .people-discription{
     font-size: 12px;
-    line-height: 21px;
+    line-height: 19px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
+    margin: 0;
 }
-.people_image{
+.people_foto{
     width: 300px;
-    height: 300px;
-    padding-right: 20px;
-}
-/* .layout-4-column{
-    display: inline-block; */
+    height: 300px;   
 }
 .links{
-
-    /* width: 32px;
-    height: 32px;
-    border-radius: 16px;
-    border: 1px solid #666d89;  */
+    margin-right: 1px;
+}
+.icon_links{
+    margin-top: 24px;
+    padding-bottom: 43px;
 }
