@@ -1,0 +1,134 @@
+html {
+    font-size: 10px;   
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato Regular', sans-serif;
+    font-size: 1.6rem;
+}
+.wrapper{
+    width: 1020px;
+   
+}
+.quote-contact{
+    background-color: #f06c64;
+}
+.guote_title{
+    font-size: 30px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    margin: 0;
+    padding-top: 69px;
+    padding-left: 40px;
+}
+.quote_discription{
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    padding-left: 40px;
+    padding-top: 9px;
+    padding-bottom: 29px;
+}
+
+.contact_content{
+    padding-right: 68px;
+    
+}
+
+.layout-2-colomn{
+    display: flex;
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    padding-left: 40px;
+    padding-bottom: 31px;
+}
+::placeholder{
+    font-size: 12px;
+    line-height: 22px;
+    color: #f48c8f;
+    font-family: "Lato";
+    font-weight: 400;
+    padding-left: 13px;
+}
+input{
+    width: 617px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-bottom: 17px;
+    border: 0;
+}
+textarea{
+    width: 615px;
+    height: 193px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    margin-top: 0px;
+    border: 0;
+    padding-top: 7px;
+}
+button{
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #f0d8d9;;
+    font-family: "Lato";
+    margin-left: 200px;
+}
+h4{
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 900;
+    margin: 0;
+    letter-spacing: 0.2px;
+}
+.contact-discription{
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+.img_contact{
+    width: 21px;
+    display: inline-block;
+}
+.links {
+    margin-left: 1px;
+}
+.footer {
+    display: flex;
+    background-color: #2d303a;
+    justify-content: space-between;
+    height: 76px;
+}
+.footer_copyright {
+    color:#666d89;
+    font-family: "Lato";
+    padding-left: 42px;
+    padding-top: 17px;
+    margin-top: 1px;
+    letter-spacing: -0.1px;
+    font-size: 12px;
+}
+.footer_links{
+    cursor: pointer;
+    
+    margin-right: 39px;
+    padding-top: 21px;
+}

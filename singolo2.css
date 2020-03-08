@@ -138,4 +138,5 @@ body {
 .icon_links{
     margin-top: 24px;
     padding-bottom: 43px;
+    cursor: pointer;
 }
