@@ -237,6 +237,9 @@ body {
     margin: 12px 0 12px 0;
     padding-left: 1px;
 }
+.portfolio_image__active{
+    border: 5px solid #F06C64;
+}
 .portfolio_pictures {
     list-style: none;
     overflow: hidden;

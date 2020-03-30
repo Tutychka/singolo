@@ -112,7 +112,6 @@ multiItemSlider()
 const displayChange= document.querySelectorAll('.phone_section img')
 for (let i of displayChange){
 i.addEventListener('click', function (e){
-  debugger;
 const pathName = e.path[1].className;
   const colorPhone = document.querySelector('.' +pathName + ' .phone');
   const displays = colorPhone.style.display
@@ -128,8 +127,19 @@ const pathName = e.path[1].className;
 
 
 
+// active pictures portfolio
+function addBorderToPictures (){
+  const picturesActive= document.querySelectorAll('.portfolio_image')
+  for (let i of picturesActive) {
+    i.addEventListener('click', function (e){
+        const picturesActive = document.querySelector('.portfolio_image__active');
+        picturesActive.classList.remove('portfolio_image__active');
+        i.classList.add('portfolio_image__active');
+    }
+  )
+}
+}
 // tags & shuffle 
-
 function shuffle(elems) {
   allElems = (function() {
       let ret = [],
@@ -162,4 +172,20 @@ for (let i of tagChange) {
       tagActive.classList.remove('button_active');
       i.classList.add('button_active');
   shuffle(document.querySelectorAll('#shuffle > li'))
+  addBorderToPictures();
 })}
+
+// Quote
+
+const submitForm = document.querySelector('form')
+submitForm.addEventListener('submit', function (e){
+  e.preventDefault()
+  let fieldSubject = e.currentTarget.elements[2].value;
+  let fieldDescribe = e.currentTarget.elements[3].value;
+  let subject = fieldSubject ? fieldSubject : 'Без темы ';
+  let describe = fieldDescribe ? fieldDescribe : 'Без описания ';
+  alert ('Письмо отправлено' + '\n' + 'Тема: ' + subject + '\n' + 'Описание: ' + describe)     
+})
+  
+   
+  
