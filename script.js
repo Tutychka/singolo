@@ -125,3 +125,41 @@ const pathName = e.path[1].className;
 })
 }
 
+
+
+
+// tags & shuffle 
+
+function shuffle(elems) {
+  allElems = (function() {
+      let ret = [],
+          l = elems.length;
+      while (l--) {
+          ret[ret.length] = elems[l];
+      }
+      return ret;
+  })();
+  var shuffled = (function() {
+          var l = allElems.length,
+              ret = [];
+          while (l--) {
+              var random = Math.floor(Math.random() * allElems.length),
+                  randEl = allElems[random].cloneNode(true);
+              allElems.splice(random, 1);
+              ret[ret.length] = randEl;
+          }
+          return ret;
+      })(),
+      l = elems.length;
+  while (l--) { elems[l].parentNode.insertBefore(shuffled[l], elems[l].nextSibling);
+      elems[l].parentNode.removeChild(elems[l]);
+  }
+}
+  const tagChange= document.querySelectorAll('.button')
+for (let i of tagChange) {
+  i.addEventListener('click', function (e){
+      const tagActive = document.querySelector('.button_active');
+      tagActive.classList.remove('button_active');
+      i.classList.add('button_active');
+  shuffle(document.querySelectorAll('#shuffle > li'))
+})}

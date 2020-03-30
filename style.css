@@ -223,9 +223,10 @@ body {
     padding-right: 6px;
     margin-right: 5px;
     word-spacing: -1px;
+    outline: none;
 }
 .button_active{ 
-    color: #c5c5c5;
+    color: hsl(0, 97%, 48%);
     border: 1px solid #c5c5c5;
 }
 .pictures {
